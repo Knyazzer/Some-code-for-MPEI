@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="testClass.cpp" />
     <ClCompile Include="UMRU speed list for KUKA.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="testClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
