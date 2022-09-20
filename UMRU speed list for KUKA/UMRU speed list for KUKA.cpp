@@ -8,6 +8,6 @@ using namespace std;
 int main()
 {
     testClass G(5);
-    cout << G.A;
+    cout << G.A << endl;
 }
 
