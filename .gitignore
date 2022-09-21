@@ -32,11 +32,11 @@
 *.app
 
 
-# *.sln
-# *.vcxproj
-# *.vcxproj.filters
-# *.vcxproj.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 .vs/
 x64/
 
-"Speed List"/Debug/
+*Debug/
