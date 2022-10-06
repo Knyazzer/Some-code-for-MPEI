@@ -27,7 +27,6 @@ void writeLinearSpeed(string pathOut) {
 
     double gamma;
 
-   // cout << quantityPoint << "\t" << lenght2R << "\t" << lenghtL;
 
         for (int i = 0; i < quantityPoint; i++)
         {
@@ -66,7 +65,7 @@ void writeLinearSpeed(string pathOut) {
 }
 
 
-void writeVelosity(string pathIn, string pathOut) {
+void columnParser(string pathIn, string pathOut) {
 
     string t = "t";
     string Vx_o = "Vx_o";
@@ -160,11 +159,6 @@ void writeVelosity(string pathIn, string pathOut) {
     }
     fin.close();
     fout.close();
-
-    /* x[i] = x[i - 1] + dt * (Vx[i - 1] * cos(psi[i - 1]) - Vy[i - 1] * sin(psi[i - 1]));
-     y[i] = y[i - 1] + dt * (Vy[i - 1] * cos(psi[i - 1]) + Vx[i - 1] * sin(psi[i - 1]));
-     psi[i] = psi[i - 1] + dt * OM[i - 1];*/
-
 
 
 }

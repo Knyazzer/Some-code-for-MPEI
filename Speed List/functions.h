@@ -4,6 +4,6 @@ using namespace std;
 
 void writeLinearSpeed(string pathOut);
 
-void writeVelosity(string pathIn ,string pathOut);
+void columnParser(string pathIn ,string pathOut);
 
 

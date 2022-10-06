@@ -21,7 +21,7 @@ int main()
 
 
 
-	writeVelosity(pathIn,pathOut);
+	columnParser(pathIn,pathOut);
 	//writeLinearSpeed(pathOut);
 }
 
